@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<style>
+   @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+</style>
+<head>
+   <meta charset="utf-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <title>College Start</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" media="screen" href="../css/logged_in_scholarship.css" />
+   <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyBErxXLExGiBdxPtXpy_enXg0E70S1aRnw",
+            authDomain: "college-start.firebaseapp.com",
+            databaseURL: "https://college-start.firebaseio.com",
+            projectId: "college-start",
+            storageBucket: "college-start.appspot.com",
+            messagingSenderId: "1034410383148"
+          };
+          firebase.initializeApp(config);
+        </script>
+   <script src="../js/dashboard.js" defer></script>
+
+   <!-- <script src="main.js" defer></script> -->
+</head>
+<body>
+           <div class="nav-bar">
+               <div class="logo-box">
+                   <img id="logo" src="../img/logo_circle.png">
+               </div>
+               <div class="nav-buttons">
+                   <a href="logged_in_college.html">College</a>
+                   <div class="dropdown">
+                       <button class="dropbtn">Opportunities</button>
+                       <div class="dropdown-content">
+                         <a href="logged_in_internship.html">Internships</a>
+                         <a href="logged_in_scholarship.html">Scholarships</a>
+                         <a href="logged_in_job.html">Jobs</a>
+                       </div>
+                     </div>
+
+
+                   <a href="#">Connection</a>
+                   <a href="#" id="logOut">Log Out</a>
+
+               </div>
+           </div>
+           <div id="heading">
+               <h1>Scholarships</h1>
+           </div>
+<div id="items">
+   <div class="box1">
+       <h2>NAME </h2>
+       <p>DESCRPTION</p>
+       <p>Location</p>
+       <p>Restriction</p>
+       <p>Kind of major</p>
+   </div>
+   <div class="box2">
+           <h2>NAME </h2>
+           <p>DESCRPTION</p>
+           <p>Location</p>
+           <p>Restriction</p>
+           <p>Kind of major</p>
+   </div>
+   <div class="box3">
+        <h2>NAME </h2>
+       <p>DESCRPTION</p>
+       <p>Location</p>
+       <p>Restriction</p>
+       <p>Kind of major</p>
+  </div>
+</div>
+</body>
+</html>
