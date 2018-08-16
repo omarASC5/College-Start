@@ -4,20 +4,20 @@ body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
  }
-
+ 
  .main-container {
     display: flex;
     flex-direction: column;
-}
-
-/* display on smaller screen */
-@media screen and (max-width: 1024px) {
-
+ }
+ 
+ /* display on smaller screen */
+ @media screen and (max-width: 1024px) {
+ 
     #logo{
         width: 100px;
         margin: 20px;
     }
-
+ 
     .nav-bar {
         flex-direction: column;
         align-items: center;
@@ -25,72 +25,72 @@ body {
         justify-content: center;
         margin-bottom: 20px;
     }
-
+ 
     .dropdown-content {
         transform: translate(0px, 10px) !important;
     }
-
+ 
     .nav-buttons {
         flex-direction: column;
         padding: 30px;
         align-items: center !important;
     }
-
+ 
     .nav-buttons a {
         padding: 10px !important;
     }
-    
+ 
     #header-scholarship {
         font-size: 20px !important;
         padding-left: 50px !important;
         padding-right: 50px !important;
     }
-
+ 
     .bottom-container {
         flex-direction: column !important;
         align-items: center;
         text-align: center;
     }
-
-    .scholarship1-box {
+ 
+    .box1 {
         text-align: center;
         align-items: center;
         justify-content: center;
     }
-}
-/* /display on smaller screen */
-
-
-
-/* top container */
-.top-container {
+ }
+ /* /display on smaller screen */
+ 
+ 
+ 
+ /* top container */
+ .top-container {
     display: flex;
     flex-direction: column;
-    height: 807px; 
+    height: 807px;
  }
  /* nav bar */
-.nav-bar {      /* the box holding whole top nav bar */
+ .nav-bar {      /* the box holding whole top nav bar */
     display: flex;
     background-color: white;
     overflow: hidden;
     width: 100%;
     justify-content: space-between;
-}
-
-#logo {
+ }
+ 
+ #logo {
     max-width: 100%;
     height: auto;
     padding-bottom: 30px;
-}
-
-.nav-buttons {      /* the box that holds all the nav buttons */
+ }
+ 
+ .nav-buttons {      /* the box that holds all the nav buttons */
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
     width: 80%;
-}
-
-.nav-buttons a {    /* the nav buttons themselves */
+ }
+ 
+ .nav-buttons a {    /* the nav buttons themselves */
     color: black;
     text-align: center;
     padding: 16px 18px;
@@ -98,18 +98,18 @@ body {
     font-size: 20px;
     width: 100%;
     padding-top: 30px;
-    padding-bottom: 30px; 
-}
-
-.nav-buttons a:hover {
+    padding-bottom: 30px;
+ }
+ 
+ .nav-buttons a:hover {
     color: blue;
-}
-
-.dropdown {
+ }
+ 
+ .dropdown {
     padding: 14px 50px;
-}
-
-.dropbtn {
+ }
+ 
+ .dropbtn {
     background-color:white;
     color: black;
     padding: 16px;
@@ -152,9 +152,9 @@ body {
  .dropdown:hover .dropbtn {
      color: blue;
  }
-/* /nav bar */
-
- .header-scholarship-box {      
+ /* /nav bar */
+ 
+ .header-scholarship-box {
     display: flex;
     height: 100%;
     background: url(../img/architecture-building-campus-356086.jpg);
@@ -163,7 +163,7 @@ body {
     background-attachment:fixed;
     justify-content: center;
  }
-
+ 
  #header-scholarship {
     color: black;
     align-self: flex-end;
@@ -174,18 +174,20 @@ body {
     padding-right: 80px;
     border-radius: 50px 50px 0px 0px;
  }
-
+ 
  /* /top container */
  /* -------------------------------THIS IS THE NAVBAR CODE!!!!------------------------------------------------------------------- */
  
- .bottom-container {
+ #items {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    
    }
-
- .scholarship1-box {
+ 
+ 
+ .box1 {
     display: flex;
     flex-direction: column;
     margin: 20px;
@@ -196,13 +198,13 @@ body {
     transition-timing-function: ease-out;
     cursor: pointer;
  }
-
- .scholarship1-box:hover {
+ 
+ .box1:hover {
     box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2), 8px 12px 26px 0 rgba(0, 0, 0, 0.19);
     margin: 10px;
-}
-
- .scholarship2-box {
+ }
+ 
+ .box2 {
     display: flex;
     flex-direction: column;
     margin: 20px;
@@ -213,13 +215,13 @@ body {
     transition-timing-function: ease-out;
     cursor: pointer;
  }
-
- .scholarship2-box:hover {
+ 
+ .box2:hover {
     box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2), 8px 12px 26px 0 rgba(0, 0, 0, 0.19);
     margin: 10px;
-}
-
- .scholarship3-box {
+ }
+ 
+ .box3 {
     display: flex;
     flex-direction: column;
     margin: 20px;
@@ -230,8 +232,7 @@ body {
     transition-timing-function: ease-out;
     cursor: pointer;
  }
-
- .scholarship3-box:hover {
+ 
+ .box3:hover {
     box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2), 8px 12px 26px 0 rgba(0, 0, 0, 0.19);
     margin: 10px;
-}

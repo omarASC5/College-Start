@@ -195,8 +195,9 @@ body {
     justify-content: center;
     text-align: center;
    }
- .content-container {
+ .jobs-row {
     display: flex;
+    text-align: center;
     flex-direction: column;
     margin: 20px;
     padding: 20px;
@@ -207,7 +208,7 @@ body {
     cursor: pointer;
  }
  
- .content-container:hover {
+ .jobs-row:hover {
     box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2), 8px 12px 26px 0 rgba(0, 0, 0, 0.19);
     margin: 10px;
  }

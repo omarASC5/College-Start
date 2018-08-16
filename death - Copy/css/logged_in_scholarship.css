@@ -196,9 +196,10 @@ body {
     text-align: center;
    }
 
- .scholarship1-box {
+ .box1 {
     display: flex;
     flex-direction: column;
+    text-align: center;
     margin: 20px;
     padding: 20px;
     border-radius: 12px;
@@ -208,14 +209,15 @@ body {
     cursor: pointer;
  }
 
- .scholarship1-box:hover {
+ .box1:hover {
     box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2), 8px 12px 26px 0 rgba(0, 0, 0, 0.19);
     margin: 10px;
 }
 
- .scholarship2-box {
+ .box2 {
     display: flex;
     flex-direction: column;
+    text-align: center;
     margin: 20px;
     padding: 20px;
     border-radius: 12px;
@@ -225,14 +227,15 @@ body {
     cursor: pointer;
  }
 
- .scholarship2-box:hover {
+ .box2:hover {
     box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2), 8px 12px 26px 0 rgba(0, 0, 0, 0.19);
     margin: 10px;
 }
 
- .scholarship3-box {
+ .box3 {
     display: flex;
     flex-direction: column;
+    text-align: center;
     margin: 20px;
     padding: 20px;
     border-radius: 12px;
@@ -242,7 +245,7 @@ body {
     cursor: pointer;
  }
 
- .scholarship3-box:hover {
+ .box3:hover {
     box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2), 8px 12px 26px 0 rgba(0, 0, 0, 0.19);
     margin: 10px;
 }
