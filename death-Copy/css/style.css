@@ -145,26 +145,26 @@ body {
 
 #get-started-button {
     /* inside button */
+    align-items: center;
+    align-self: flex-end;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 100px;
+    border-style: solid;
+    color: white;
+    cursor: pointer;
     display: flex;
     justify-content: center;
-    align-items: center;
     padding-bottom: 2px;
     
     /* button */
-    align-self: flex-end;
     margin-bottom: 250px;
-    border-radius: 100px;
-    border-style: solid;
-    border-color: white;
     text-decoration: none;
-    background-color: transparent;
-    color: white;
     height: 80px;
     width: 200px;
     font-size: 25px;
     transition: 500ms;
     transition-timing-function: ease-out;
-    cursor: pointer;
 }
 
 #get-started-button:hover {
@@ -181,12 +181,12 @@ body {
 }
 
 .news-box {
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
     display: flex;
     flex-direction: column;
     margin: 20px;
     padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
 
 .articles-box {
@@ -222,8 +222,8 @@ body {
 .about-us-box {
     display: flex;
     flex-direction: column;
-    text-align: center;
     margin: 50px;
+    text-align: center;
 }
 
 .roles-box {
@@ -232,8 +232,8 @@ body {
 }
 
 .face-img {
-    height: 200px;
     border-radius: 50%;
+    height: 200px;
 }
 /* /bottom container */
 
