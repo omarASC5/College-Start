@@ -231,7 +231,7 @@ body {
     justify-content: space-around;
 }
 
-#face-img {
+.face-img {
     height: 200px;
     border-radius: 50%;
 }
