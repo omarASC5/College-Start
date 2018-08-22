@@ -2,7 +2,7 @@ var database = firebase.database();
 const logOut = document.getElementById('logOut');
 
 logOut.addEventListener('click', () => {
-    window.location.href = "../html/index.html";
+    window.location.href = "../../index.html";
     firebase.auth().signOut();
     console.log("LOGGED OUT");
 }); 
